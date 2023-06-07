@@ -16,7 +16,7 @@ int main()
     pc.printf("\r\n");
 
     for (int j=0;j<10;j++){
-        pc.printf("j=%d  enter any key -->",j);
+        pc.printf("j=%d -- enter any key --> ",j);
         c=pc.getc();
         pc.putc(c);
         pc.printf("\r\n");
