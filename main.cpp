@@ -1,6 +1,6 @@
 #include "mbed.h"
 
-Serial pc(USBTX,USBRX,9600);
+RawSerial pc(USBTX,USBRX,9600);
 
 int main()
 {
